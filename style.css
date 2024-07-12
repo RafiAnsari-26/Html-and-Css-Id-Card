@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.container{
+width: 800px;
+height: 500px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a6eadc+6,ebe9f9+16,9ad3e2+43,d8d0ef+50,b1ebf9+51,e5e2a2+67,c1bfea+80 */
+background: linear-gradient(45deg,  rgba(166,234,220,1) 6%,rgba(235,233,249,1) 16%,rgba(154,211,226,1) 43%,rgba(216,208,239,1) 50%,rgba(177,235,249,1) 51%,rgba(229,226,162,1) 67%,rgba(193,191,234,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+position: absolute;
+margin-left: 240px;
+
+}
+.container .card{
+    width: 260px;
+    height: 320px;
+    border: 2px solid black ;
+    border-radius: 25px;
+    box-shadow: 3px 2px;
+    
+   
+    position: relative;
+    margin: 80px 50px 80px 80px;
+
+}
+
+.container .card img{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 72px;
+    margin-top: 10px;
+
+   
+
+}
+.container .card h2,p{
+    text-align: center;
+
+  
+}
+.container .card i{
+    position: relative;
+    left: 60px;
+    margin: 8px;
+}
+.container .card a{
+    position: relative;
+    left: 30px;
+   margin: 0 11px;
+  text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a1eda3+0,aadaed+27,f497db+45,aadaed+51,76acf2+73 */
+background: linear-gradient(45deg,  rgba(161,237,163,1) 0%,rgba(170,218,237,1) 27%,rgba(244,151,219,1) 45%,rgba(170,218,237,1) 51%,rgba(118,172,242,1) 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+color: black;
+}
+
+ .container .head h1{
+    color: black;
+    position: absolute;
+    top: 90px;
+    left: 520px;
+    line-height: 60px;
+   
+}
+.container .html h1{
+    position: absolute;
+    top: 300px;
+    left: 470px;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a1eda3+0,aadaed+27,f497db+45,aadaed+51,76acf2+73 */
+background: linear-gradient(45deg,  rgba(161,237,163,1) 0%,rgba(170,218,237,1) 27%,rgba(244,151,219,1) 45%,rgba(170,218,237,1) 51%,rgba(118,172,242,1) 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+color: black;
+font-weight: bold;
+}
+
+
+.footer{
+    background-color: whitesmoke;
+    color: black;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+   
+
+}
+.footer i{
+    margin: 8px;
+
+
+}
+
+
